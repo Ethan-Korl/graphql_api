@@ -79,11 +79,11 @@ WSGI_APPLICATION = "graphql_demo.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "NAME": BASE_DIR / "graphql.sqlite3",
     }
 }
 
-AUTH_USER_MODEL = "core.Aurther"
+AUTH_USER_MODEL = "core.Auther"
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
@@ -126,6 +126,6 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-GRAPHENE = {
-    "SCHEMA": "core.models",
-}
+# GRAPHENE = {
+#     "SCHEMA": "core.schema.schema",
+# }

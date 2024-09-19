@@ -4,7 +4,7 @@ from django.utils.translation import gettext_lazy as _
 
 
 # simple aurther user model
-class Aurther(AbstractUser):
+class Auther(AbstractUser):
     email = models.EmailField(
         _("email address"),
         unique=True,
@@ -15,7 +15,7 @@ class Aurther(AbstractUser):
 
 
 class News(models.Model):
-    aurther = models.ForeignKey(Aurther, on_delete=models.CASCADE)
+    aurther = models.ForeignKey(Auther, on_delete=models.CASCADE)
     heading = models.CharField(max_length=255)
     content = models.TextField()
     created_at = models.DateTimeField(

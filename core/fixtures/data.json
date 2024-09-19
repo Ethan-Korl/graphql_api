@@ -1,0 +1,202 @@
+[
+    {
+        "model": "core.auther",
+        "pk": 1,
+        "fields": {
+            "username": "author1",
+            "email": "author1@example.com",
+            "password": "hashed_password1",
+            "first_name": "First",
+            "last_name": "Author",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": null
+        }
+    },
+    {
+        "model": "core.auther",
+        "pk": 2,
+        "fields": {
+            "username": "author2",
+            "email": "author2@example.com",
+            "password": "hashed_password2",
+            "first_name": "Second",
+            "last_name": "Author",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": null
+        }
+    },
+    {
+        "model": "core.auther",
+        "pk": 3,
+        "fields": {
+            "username": "author3",
+            "email": "author3@example.com",
+            "password": "hashed_password3",
+            "first_name": "Third",
+            "last_name": "Author",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": null
+        }
+    },
+    {
+        "model": "core.auther",
+        "pk": 4,
+        "fields": {
+            "username": "author4",
+            "email": "author4@example.com",
+            "password": "hashed_password4",
+            "first_name": "Fourth",
+            "last_name": "Author",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": null
+        }
+    },
+    {
+        "model": "core.auther",
+        "pk": 5,
+        "fields": {
+            "username": "author5",
+            "email": "author5@example.com",
+            "password": "hashed_password5",
+            "first_name": "Fifth",
+            "last_name": "Author",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": null
+        }
+    },
+    {
+        "model": "core.auther",
+        "pk": 6,
+        "fields": {
+            "username": "author6",
+            "email": "author6@example.com",
+            "password": "hashed_password6",
+            "first_name": "Sixth",
+            "last_name": "Author",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": null
+        }
+    },
+    {
+        "model": "core.news",
+        "pk": 1,
+        "fields": {
+            "aurther": 1,
+            "heading": "First News Heading",
+            "content": "This is the content of the first news article.",
+            "created_at": "2024-01-01T10:00:00Z",
+            "last_upadted": "2024-01-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "core.news",
+        "pk": 2,
+        "fields": {
+            "aurther": 2,
+            "heading": "Second News Heading",
+            "content": "This is the content of the second news article.",
+            "created_at": "2024-01-02T10:00:00Z",
+            "last_upadted": "2024-01-02T10:00:00Z"
+        }
+    },
+    {
+        "model": "core.news",
+        "pk": 3,
+        "fields": {
+            "aurther": 3,
+            "heading": "Third News Heading",
+            "content": "This is the content of the third news article.",
+            "created_at": "2024-01-03T10:00:00Z",
+            "last_upadted": "2024-01-03T10:00:00Z"
+        }
+    },
+    {
+        "model": "core.news",
+        "pk": 4,
+        "fields": {
+            "aurther": 4,
+            "heading": "Fourth News Heading",
+            "content": "This is the content of the fourth news article.",
+            "created_at": "2024-01-04T10:00:00Z",
+            "last_upadted": "2024-01-04T10:00:00Z"
+        }
+    },
+    {
+        "model": "core.news",
+        "pk": 5,
+        "fields": {
+            "aurther": 5,
+            "heading": "Fifth News Heading",
+            "content": "This is the content of the fifth news article.",
+            "created_at": "2024-01-05T10:00:00Z",
+            "last_upadted": "2024-01-05T10:00:00Z"
+        }
+    },
+    {
+        "model": "core.news",
+        "pk": 6,
+        "fields": {
+            "aurther": 6,
+            "heading": "Sixth News Heading",
+            "content": "This is the content of the sixth news article.",
+            "created_at": "2024-01-06T10:00:00Z",
+            "last_upadted": "2024-01-06T10:00:00Z"
+        }
+    },
+    {
+        "model": "core.news",
+        "pk": 7,
+        "fields": {
+            "aurther": 1,
+            "heading": "Seventh News Heading",
+            "content": "This is the content of the seventh news article.",
+            "created_at": "2024-01-07T10:00:00Z",
+            "last_upadted": "2024-01-07T10:00:00Z"
+        }
+    },
+    {
+        "model": "core.news",
+        "pk": 8,
+        "fields": {
+            "aurther": 2,
+            "heading": "Eighth News Heading",
+            "content": "This is the content of the eighth news article.",
+            "created_at": "2024-01-08T10:00:00Z",
+            "last_upadted": "2024-01-08T10:00:00Z"
+        }
+    },
+    {
+        "model": "core.news",
+        "pk": 9,
+        "fields": {
+            "aurther": 3,
+            "heading": "Ninth News Heading",
+            "content": "This is the content of the ninth news article.",
+            "created_at": "2024-01-09T10:00:00Z",
+            "last_upadted": "2024-01-09T10:00:00Z"
+        }
+    },
+    {
+        "model": "core.news",
+        "pk": 10,
+        "fields": {
+            "aurther": 4,
+            "heading": "Tenth News Heading",
+            "content": "This is the content of the tenth news article.",
+            "created_at": "2024-01-10T10:00:00Z",
+            "last_upadted": "2024-01-10T10:00:00Z"
+        }
+    }
+]
